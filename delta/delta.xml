@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROM>
+<!-- THIS IS AN EXAMPLE DELTA XML FILE-->
+  <RomName>lluvia_delta</RomName>
+  <VersionName>1</VersionName>
+  <VersionNumber type="integer">20180509</VersionNumber>
+  <DirectUrl></DirectUrl>
+  <HttpUrl>https://sourceforge.net/projects/lluviaos-v-1-x/files/delta</HttpUrl>
+  <Android>8.1.0</Android>
+  <CheckMD5>DDE7232146F69200203F69088BA9E929</CheckMD5>
+  <FileSize type="integer"></FileSize>
+  <Developer></Developer>
+  <Changelog>
+  </Changelog>
+</ROM>

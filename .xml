@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROM>
+  <RomName>lluvia_</RomName>
+  <VersionName></VersionName>
+  <VersionNumber type="integer">20180505</VersionNumber>
+  <DirectUrl>https://sourceforge.net/projects/lluviaos-v-1-x//.zip</DirectUrl>
+  <HttpUrl>https://sourceforge.net/projects/lluviaos-v-1-x/</HttpUrl>
+  <Android>8.1.0</Android>
+  <CheckMD5></CheckMD5>
+  <FileSize type="integer"></FileSize>
+  <Changelog>
+    *Check LLuviaOS telegram channel for weekly changelogs.
+  </Changelog>
+</ROM>
