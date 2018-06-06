@@ -1,0 +1,8 @@
+#Common OTA url for all devices
+ota_url=https://raw.githubusercontent.com/LLuviaOS/OTA_config/8.1/cloud/ham.xml
+release_type=ALPHA
+device_name=ro.lluvia.device
+version_source=ro.lluvia.ota.version
+version_delimiter=-
+version_position=4
+version_format=yyyyMMdd-hhmm

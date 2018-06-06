@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
+    <ALPHA>
+        <ham>
+             <Filename>lluvia-ham-8.1-NATUREMADE-20180603-1120.zip</Filename>
+             <RomUrl id="rom" title="" description="">server url srijith here</RomUrl>
+             <GappsUrl
+                id="gapps"
+                title="Gapps"
+                description="Download latest Open GApps">http://www.opengapps.org/</GappsUrl>
+        </ham>
+    </ALPHA>
+</SlimOTA>

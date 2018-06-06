@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
+    <Stable>
+        <mido>
+             <Filename>Candy-mido-8.1-OFFICIAL-20180605-1204.zip</Filename>
+             <RomUrl id="rom" title="" description="">https://androidfilehost.com/?fid=746163614322268929</RomUr$
+             <GappsUrl
+                id="gapps"
+                title="Gapps"
+                description="Download latest Open GApps">https://opengapps.org/</GappsUrl>
+        </mido>
+    </Stable>
+</SlimOTA>
