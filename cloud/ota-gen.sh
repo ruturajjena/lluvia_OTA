@@ -6,7 +6,7 @@ newzip=$2
 sed -i "s/$oldzip/$newzip/g" $device.xml
 cd -
 cd ~/cloud/OTA/config/cloud
-echo "OTA Update for LLuviauvia $device $(date +%Y%m%d) Build" > /tmp/lluviaota
+echo "OTA Update for LLuvia $device $(date +%Y%m%d) Build" > /tmp/lluviaota
 git commit -as -F /tmp/lluviaota
 git pull --no-edit origin 8.1;
 git push origin 8.1
