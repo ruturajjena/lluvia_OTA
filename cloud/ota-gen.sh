@@ -1,12 +1,12 @@
 #!/bin/bash
 device=$1
-cd ~/cloud/OTA_config/cloud
-oldzip=$(grep "<Filename>LLuvia-ham-8.1-OFFICIAL-20180604-0835.zip" ham.xml  | sed -e 's|</\?Filename>||g')
+cd ~/cloud/OTA/config/cloud
+oldzip=$(grep "<Filename>LLuvia-8.1" $device.xml  | sed -e 's|</\?Filename>||g')
 newzip=$2
-sed -i "s/$oldzip/$newzip/g" ham.xml
+sed -i "s/$oldzip/$newzip/g" $device.xml
 cd -
-cd ~/cloud/OTA_config/cloud
-echo "OTA Update for lluvia $device $(date +%Y%m%d) Build" > /tmp/lluviaota
+cd ~/cloud/OTA/config/cloud
+echo "OTA Update for LLuviauvia $device $(date +%Y%m%d) Build" > /tmp/lluviaota
 git commit -as -F /tmp/lluviaota
 git pull --no-edit origin 8.1;
 git push origin 8.1
