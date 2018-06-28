@@ -2,7 +2,7 @@
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <ALPHA>
         <ham>
-             <Filename>LLuvia-ham-8.1.0.ALPHA.1.3-NATUREMADE-20180606-1656.zip</Filename>
+             <Filename>LLuvia-kuntao-8.1.0.Stable.1.3-NATUREMADE-20180628-1500</Filename>
              <RomUrl id="rom" title="" description="">https://sourceforge.net/projects/lluviaos-v-1-x/files/ham/LLuvia-ham-8.1.0.ALPHA.1.3-NATUREMADE-20180606-1656.zip/download</RomUrl>
              <GappsUrl
                 id="gapps"
